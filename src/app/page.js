@@ -143,8 +143,8 @@ export default function Home() {
             </a>
         </div>
 
-        <div class="mt-10 flex justify-center">
-            <div class="h-[400px] w-full">
+        <div className="mt-10 flex justify-center">
+            <div className="h-[400px] w-full">
                 <iframe loading="lazy" src="https://sangerardoresidencial.com.mx/mapbox/mapbox.html" className="w-full h-full"></iframe>
             </div>
         </div>

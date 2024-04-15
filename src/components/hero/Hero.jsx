@@ -36,7 +36,7 @@ export const Hero = () => {
         <div className="bg-white">
             <div className="lg:h-screen overflow-hidden bg-black">
                 <video loop autoPlay className="w-full h-full object-cover opacity-50">
-                    <source src="/Porque-invertir-en-San-Gerardo.mp4" type="video/mp4"/>
+                    <source src="/San-Gerardo.mp4" type="video/mp4" />
                 </video>
                 {/* <Image src={HeroImg} width={''} alt='' className='w-full h-auto object-cover' /> */}
             </div>
