@@ -34,10 +34,16 @@ export const Hero = () => {
 
     return (
         <div className="bg-white">
-            <div className="lg:h-screen overflow-hidden bg-black">
-                <video loop autoPlay className="w-full h-full object-cover opacity-50">
+            <div className="lg:h-screen relative overflow-hidden bg-black">
+                <div className="absolute inset-0 z-0">
+                    <video autoPlay loop muted className="object-cover w-full h-full opacity-50">
+                        <source src="/San-Gerardo.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                {/* <video autoPlay className="w-full h-full object-cover opacity-50">
                     <source src="/San-Gerardo.mp4" type="video/mp4" />
-                </video>
+                </video> */}
                 {/* <Image src={HeroImg} width={''} alt='' className='w-full h-auto object-cover' /> */}
             </div>
             <header className="fixed inset-x-0 top-0 z-50">
