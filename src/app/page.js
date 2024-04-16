@@ -6,11 +6,11 @@ import profit from '../assets/income_9236087.png';
 import market from '../assets/market_12001636.png';
 import shield from '../assets/shield_5138377.png';
 import business from '../assets/business-strategy_7898249.png';
-import I1 from '../assets/1.webp';
-import I2 from '../assets/construccion-central-electrica.jpg';
+import I1 from '../assets/WhatsApp Image 2024-04-15 at 6.24.31 PM.jpeg';
+import I2 from '../assets/terrenos.png';
 import I4 from '../assets/4.webp';
-import I5 from '../assets/aguascalientes_turismo_nacional_.jpg';
-import I6 from '../assets/keelung-new-harbor-service-builind-competition-100.jpg';
+import I5 from '../assets/WhatsApp Image 2024-04-15 at 7.06.45 PM.jpeg';
+import I6 from '../assets/WhatsApp Image 2024-04-15 at 6.24.31 PM (1).png';
 
 import I7 from '../assets/don-gotera-imagen-2-64efac06d87fd.webp';
 import I8 from '../assets/frigorifico-comida.jpg';
@@ -109,10 +109,10 @@ export default function Home() {
             <Image src={I4} alt="" width={1000} className="w-full h-full object-cover" />
           </div>
           <div className="col-span-3 bg-blue-600 h-64">
-            <Image src={I5} alt="" width={1000} className="w-full h-full object-cover" />
+            <Image src={I6} alt="" width={1000} className="w-full h-full object-cover" />
           </div>
           <div className="col-span-2 bg-blue-900 h-64">
-            <Image src={I6} alt="" width={1000} className="w-full h-full object-cover" />
+            <Image src={I5} alt="" width={1000} className="w-full h-full object-cover" />
           </div>
         </div>
       </div>
