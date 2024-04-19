@@ -19,6 +19,11 @@ import I10 from '../assets/interior-restaurante.jpg';
 import I11 from '../assets/empty-drugstore-with-bottles-packages-full-with-medicaments-retail-shop-shelves-with-pharmaceutical-products-pharmacy-space-filled-with-medical-drugs-pills-vitamins-boxes.jpg';
 import I12 from '../assets/322787126.jpg';
 import I13 from '../assets/interior-shot-cafe-with-chairs-near-bar-with-wooden-tables.jpg';
+import terrenos from '@/assets/Terrenos residenciales.webp';
+import desarrollo from '@/assets/icons8-dinámica-positiva-94.png'
+import plusvalia from '@/assets/chart_6985767.png'
+import servicios from '@/assets/icons8-servicios-94.png'
+
 
 
 
@@ -33,15 +38,15 @@ export default function Home() {
           <div className="text-center">
             <div className="flex justify-center mb-2">
               <div className="flex items-center justify-center w-36 h-36 rounded-full bg-purple-200 p-8"> {/* Ajusta w-36 h-36 según necesites */}
-                <Image src={profit} alt="" width={90} height={90} className="object-cover" /> {/* Asegúrate de definir también el height para mantener la proporción */}
+                <Image src={plusvalia} alt="" width={90} height={90} className="object-cover" /> {/* Asegúrate de definir también el height para mantener la proporción */}
               </div>
             </div>
             <span className="font-bold text-2xl">Plusvalía</span>
           </div>
           <div className="text-center">
             <div className="flex justify-center mb-2">
-              <div className="flex items-center justify-center w-36 h-36 rounded-full bg-yellow-200 p-8"> {/* Ajusta w-36 h-36 según necesites */}
-                <Image src={business} alt="" width={90} height={90} className="object-cover" /> {/* Asegúrate de definir también el height para mantener la proporción */}
+              <div className="flex items-center justify-center w-36 h-36 rounded-full bg-blue-200 p-8"> {/* Ajusta w-36 h-36 según necesites */}
+                <Image src={desarrollo} alt="" width={90} height={90} className="object-cover" /> {/* Asegúrate de definir también el height para mantener la proporción */}
               </div>
             </div>
             <span className="font-bold text-2xl">Desarrollo, proyección y crecimiento</span>
@@ -62,22 +67,26 @@ export default function Home() {
             </div>
             <span className="font-bold text-2xl">Oportunidades de inversión</span>
           </div>
+
+        </div>
+
+        <div className="grid grid-cols-2 gap-10 mx-auto mt-10">
           <div className="text-center">
-            <div className="flex justify-center mb-2">
-              <div className="flex items-center justify-center w-36 h-36 rounded-full bg-blue-200 p-8"> {/* Ajusta w-36 h-36 según necesites */}
-                <Image src={market} alt="" width={90} height={90} className="object-cover" /> {/* Asegúrate de definir también el height para mantener la proporción */}
+              <div className="flex justify-center mb-2">
+                <div className="flex items-center justify-center w-36 h-36 rounded-full bg-blue-200 p-8"> {/* Ajusta w-36 h-36 según necesites */}
+                  <Image src={market} alt="" width={90} height={90} className="object-cover" /> {/* Asegúrate de definir también el height para mantener la proporción */}
+                </div>
               </div>
+              <span className="font-bold text-2xl">Rentabilidad y viabilidad comercial</span>
             </div>
-            <span className="font-bold text-2xl">Rentabilidad y viabilidad comercial</span>
-          </div>
-          <div className="text-center">
-            <div className="flex justify-center mb-2">
-              <div className="flex items-center justify-center w-36 h-36 rounded-full bg-blue-200 p-8"> {/* Ajusta w-36 h-36 según necesites */}
-                <Image src={market} alt="" width={90} height={90} className="object-cover" /> {/* Asegúrate de definir también el height para mantener la proporción */}
+            <div className="text-center">
+              <div className="flex justify-center mb-2">
+                <div className="flex items-center justify-center w-36 h-36 rounded-full bg-blue-200 p-8"> {/* Ajusta w-36 h-36 según necesites */}
+                  <Image src={servicios} alt="" width={90} height={90} className="object-cover" /> {/* Asegúrate de definir también el height para mantener la proporción */}
+                </div>
               </div>
+              <span className="font-bold text-2xl">Servicios</span>
             </div>
-            <span className="font-bold text-2xl">Servicios</span>
-          </div>
         </div>
       </div>
 
@@ -118,18 +127,58 @@ export default function Home() {
       </div>
 
       <div className="mt-40 container mx-auto">
-        <h2 className="font-bold text-7xl text-center">Catálogo de Terrenos</h2>
+        <h2 className="font-bold text-7xl text-center">Lotes</h2>
         <p className="text-center mt-10 text-2xl">Aliquet sed nulla tincidunt pulvinar sed fames sit facilisis dictumst. Ornare faucibus quis velit fringilla aliquam ultricies. Malesuada ut aliquam at ac est nisi,
           interdum etiam dignissim. Sed ut vestibulum eget purus ornare. Risus elit et fringilla habitant ut facilisi.</p>
-        <div className="grid grid-cols-4 gap-4 mt-10">
-          <div className="bg-slate-100 h-80"></div>
-          <div className="bg-slate-100 h-80"></div>
-          <div className="bg-slate-100 h-80"></div>
-          <div className="bg-slate-100 h-80"></div>
-          <div className="bg-slate-100 h-80"></div>
-          <div className="bg-slate-100 h-80"></div>
-          <div className="bg-slate-100 h-80"></div>
-          <div className="bg-slate-100 h-80"></div>
+        <div className="grid grid-cols-2 gap-32 mt-10">
+          <div className="bg-slate-100 p-8">
+            <div>
+              <h3 className="font-bold text-4xl mt-6">Comerciales</h3>
+              <ul className="mt-10 text-2xl space-y-5">
+                <li>Totalmente urbanizados</li>
+                <li>Lotes en preventa desde 400 m<sup>2</sup></li>
+                <li>Crédito directo</li>
+                <li>Sobre avenida</li>
+                <li>Gran plusvalía</li>
+              </ul>
+              <div className="flex justify-between">
+                <div className="self-end">
+                  <a href="#"className="rounded-full bg-blue-600 px-7 py-2.5 text-2xl font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                      Agendar cita
+                  </a>
+                </div>
+
+                <div className="self-end">
+                  <Image src={terrenos} alt="" width={300} height={300} className="object-cover" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-slate-100 p-8">
+            <div>
+              <h3 className="font-bold text-4xl mt-6">Macrolotes</h3>
+              <ul className="mt-10 text-2xl space-y-5">
+                <li>Totalmente urbanizados</li>
+                <li>Lotes en preventa desde 400 m<sup>2</sup></li>
+                <li>Crédito directo</li>
+                <li>Sobre avenida</li>
+                <li>Gran plusvalía</li>
+              </ul>
+              <div className="flex justify-between">
+                <div className="self-end">
+                  <a href="#"className="rounded-full bg-blue-600 px-7 py-2.5 text-2xl font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                      Agendar cita
+                  </a>
+                </div>
+
+                <div className="self-end">
+                  <Image src={terrenos} alt="" width={300} height={300} className="object-cover" />
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 
