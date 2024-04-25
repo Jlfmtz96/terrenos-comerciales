@@ -19,7 +19,7 @@ import I10 from '../assets/interior-restaurante.jpg';
 import I11 from '../assets/empty-drugstore-with-bottles-packages-full-with-medicaments-retail-shop-shelves-with-pharmaceutical-products-pharmacy-space-filled-with-medical-drugs-pills-vitamins-boxes.jpg';
 import I12 from '../assets/322787126.jpg';
 import I13 from '../assets/interior-shot-cafe-with-chairs-near-bar-with-wooden-tables.jpg';
-import terrenos from '@/assets/Terrenos residenciales.webp';
+import terrenos from '@/assets/Terrenos comerciales.webp';
 import desarrollo from '@/assets/icons8-dinámica-positiva-94.png'
 import plusvalia from '@/assets/chart_6985767.png'
 import servicios from '@/assets/icons8-servicios-94.png'
@@ -128,8 +128,7 @@ export default function Home() {
 
       <div className="mt-40 container mx-auto">
         <h2 className="font-bold text-7xl text-center">Lotes</h2>
-        <p className="text-center mt-10 text-2xl">Aliquet sed nulla tincidunt pulvinar sed fames sit facilisis dictumst. Ornare faucibus quis velit fringilla aliquam ultricies. Malesuada ut aliquam at ac est nisi,
-          interdum etiam dignissim. Sed ut vestibulum eget purus ornare. Risus elit et fringilla habitant ut facilisi.</p>
+        <p className="text-center mt-10 text-2xl">En un desarrollo residencial con más de 250 hectáreas de extensión; con amplias avenidas, áreas comerciales y universidades todo esto al interior de un desarrollo planeado que destaca por su gran plusvalía.</p>
         <div className="grid grid-cols-2 gap-32 mt-10">
           <div className="bg-slate-100 p-8">
             <div>
@@ -159,10 +158,8 @@ export default function Home() {
             <div>
               <h3 className="font-bold text-4xl mt-6">Macrolotes</h3>
               <ul className="mt-10 text-2xl space-y-5">
-                <li>Totalmente urbanizados</li>
-                <li>Lotes en preventa desde 400 m<sup>2</sup></li>
-                <li>Crédito directo</li>
-                <li>Sobre avenida</li>
+                <li>Cercanía a principales vías de acceso</li>
+                <li>Lotes en preventa desde 22,984 m<sup>2</sup></li>
                 <li>Gran plusvalía</li>
               </ul>
               <div className="flex justify-between">
@@ -172,7 +169,7 @@ export default function Home() {
                   </a>
                 </div>
 
-                <div className="self-end">
+                <div className="self-end mt-24">
                   <Image src={terrenos} alt="" width={300} height={300} className="object-cover" />
                 </div>
               </div>
@@ -203,30 +200,26 @@ export default function Home() {
         <div className="grid grid-cols-10 gap-4">
           <div className="col-span-5 grid grid-cols-3 gap-4">
             <div className="col-span-2 h-[60vh] pt-20">
-              <span className="uppercase text-xl tracking-widest font-semibold text-[#475569]">Sin limites</span>
-              <h2 className="font-bold text-7xl text-[#0F172A] mt-6">Ideas para sus proyectos</h2>
-              <p className="text-justify mt-10 text-2xl text-[#0F172A]">
-                Scelerisque auctor dolor diam tortor, fames faucibus non
-                interdum nunc. Ultrices nibh sapien elit gravida ac, rutrum
-                molestie adipiscing lacinia.
-              </p>
-              <div className="mt-10 ">
-                  <a href="#"className="rounded-full bg-blue-600 px-7 py-2.5 text-2xl font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-                    Exploralas
-                  </a>
-              </div>
+              <span className="uppercase text-xl tracking-widest font-semibold text-[#475569]">Un Mundo de Oportunidades</span>
+              <h2 className="font-bold text-7xl text-[#0F172A] mt-6">Beneficios a tu alcance</h2>
+                <ul className="mt-10 text-2xl space-y-5 text-[#0F172A]">
+                  <li>Complejos industriales, <span className="font-semibold">Filiales de las plantas armadoras</span></li>
+                  <li>Escuelas de educación básica, media y universidades <span className="font-semibold">(UAA y UPA CAMPUS SUR)</span></li>
+                  <li>Centros comerciales, hoteles de 4 y 5 estrellas, ciudad, <span className="font-semibold">Parques, bancos, tiendas de autoservicio y conveniencia</span></li>
+                  <li>Población de clientes potenciales por el desarrollo habitacional de <span className="font-semibold">aproximadamente 10,000 personas y con una proyección a 25,000</span></li>
+                </ul>
             </div>
 
-            <div className="pt-16 px-4">
+            <div className="pt-16 px-4 max-h-[600px]">
               <Image src={I7} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="pt-16 px-4">
+            {/* <div className="pt-16 px-4">
               <Image src={I11} alt="" className="w-full h-full object-cover" />
             </div>
 
-            <div className="col-span-2 bg-blue-900">
+            <div className="col-span-2 bg-slate-100">
               <Image src={I12} alt="" className="w-full h-full object-cover" />
-            </div>
+            </div> */}
           </div>
           <div className="col-span-5 grid grid-cols-3 gap-4">
             <div className="pt-20">
